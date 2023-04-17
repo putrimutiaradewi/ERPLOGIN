@@ -10,9 +10,9 @@ app.at("cek").get(table_list);
 app.at("add").post(add_table);
 app.at("update").put(update_table);
 app.at("delete").delete(delete_table);
-app.at("login").post(add_account);
+app.at("Register").post(add_account);
 app.at("Lupa").put(update_Password);
-app.at("in").post (user_account);
+app.at("Login").post (user_account);
 
 
 }
